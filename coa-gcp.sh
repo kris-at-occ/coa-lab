@@ -21,6 +21,7 @@ ADMIN_PASSWORD=openstack
 DATABASE_PASSWORD=openstack
 RABBIT_PASSWORD=openstack
 SERVICE_PASSWORD=openstack
+# Configure Nova novnc Proxy Base URL with External IP of this Instance
 NOVNCPROXY_URL=http://$externalip:6080/vnc_auto.html
 # Enable Heat
 enable_plugin heat https://git.openstack.org/openstack/heat stable/ocata
@@ -31,10 +32,6 @@ SWIFT_REPLICAS=1
 SWIFT_DATA_DIR=\$DEST/data/swift
 # Enable Cinder Backup
 enable_service c-bak
-# Configure Nova novnc Proxy Base URL with External IP of this Instance
-#[[post-config|\$NOVA_CONF]]
-#[vnc]
-#novncproxy_base_url="http://$externalip:6080/vnc_auto.html"
 EOF
 
 # Run stack script
