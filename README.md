@@ -16,14 +16,6 @@ You will install Devstack Ocata Release (closest we can still get to Newton, usi
 - Horizon
 
 The Horizon Dashboard URL is display at the end of the script output.
-To use OpenStack Client do:
-
-`cd coa-lab`
-
-`source devstack/openrc admin admin`
-
-`openstack user list`
-
 
 
 <b>Install Devstack in VirtualBox/Vagrant</b>
@@ -44,9 +36,14 @@ Go to `coa-lab-master` directory and run Vagrant:
 
 Horizon Dashboard URL is printed in last line of output.
 
-To access Console and use OpenStack client, go to `coa-lab` directory and:
+To access Console and use OpenStack client, go to `coa-lab-master` directory and:
 
-`vagrant ssh coa-lab`
+`vagrant ssh`
+
+`source devstack/openrc admin admin`
+
+`openstack user list`
+
 
 <b>Install Devstack in GCP Virtual Machine</b>
 
