@@ -24,11 +24,7 @@ To use OpenStack Client do:
 
 `openstack user list`
 
-or
 
-`source devstack/openrc demo demo`
-
-`openstack image list`
 
 <b>Install Devstack in VirtualBox/Vagrant</b>
 
@@ -85,6 +81,13 @@ Run script to install Devstack COA Lab:
 `sh coa-gcp.sh`
 
 The script displays Horizon Dashboard URL in the very last line of the output.
-To access Console and use OpenStack Client, open `coa-lab` SSH window in GCP Console.
+User `admin` has password `openstack`, user `demo` has password `openstack`.
+
+To access Console and use OpenStack Client, open `coa-lab` SSH window in GCP Console, and:
+
+`source devstack/openrc demo demo`
+
+`openstack image list`
+
 
 Enjoy!
