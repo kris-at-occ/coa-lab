@@ -25,6 +25,7 @@ To use OpenStack Client do:
 `openstack user list`
 
 or
+
 `source devstack/openrc demo demo`
 
 `openstack image list`
