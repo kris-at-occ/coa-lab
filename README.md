@@ -20,6 +20,8 @@ The Horizon Dashboard URL is display at the end of the script output.
 
 <b>Install Devstack in VirtualBox/Vagrant</b>
 
+<b>!!! IMPORTANT !!!</b> You need more than 8GB of RAM in your Host System.
+
 Install VirtualBox from https://www.virtualbox.org/
 
 Install Vagrant from https://www.vagrantup.com/
