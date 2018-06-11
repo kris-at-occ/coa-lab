@@ -63,9 +63,9 @@ chown -R vagrant:vagrant devstack
 cd devstack
 sudo su -c "./stack.sh" -s /bin/sh vagrant
 
- # Enable Cinder Backup Dashboard in Horizon
+# Enable Cinder Backup Dashboard in Horizon
 
- sudo sed -i -e 's/'\''enable_backup'\'': False,/'\''enable_backup'\'': True,/g' /opt/stack/horizon/openstack_dashboard/local/local_settings.py
- sudo service apache2 reload
+sudo sed -i -e 's/'\''enable_backup'\'': False,/'\''enable_backup'\'': True,/g' /opt/stack/horizon/openstack_dashboard/local/local_settings.py
+sudo service apache2 reload
 
 echo "Horizon Dashboard available at http://$externalIp/dashboard"
