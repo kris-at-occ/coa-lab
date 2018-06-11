@@ -36,15 +36,13 @@ Install VirtualBox from https://www.virtualbox.org/
 
 Install Vagrant from https://www.vagrantup.com/
 
-Clone this repo:
-
-`git clone https://github.com/kris-at-occ/coa-lab`
+Download this repo and uncompress `coa-lab-master.zip`
 
 Virtual Machine can use bridged network adapter (NIC #2) or host-only network, based on your preference. Check Vagrantfile for configuration.
 
-Go to coa-lab directory and run Vagrant:
+Go to `coa-lab-master` directory and run Vagrant:
 
-`cd coa-lab`
+`cd coa-lab-master`
 
 `vagrant up`
 
