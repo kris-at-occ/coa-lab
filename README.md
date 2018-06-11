@@ -4,7 +4,7 @@ Install COA Exam Lab using Devstack
 Here is the collection of Scripts and Files to install all-in-one OpenStack Lab for COA Exam preparation & learning.
 You can install your coa-lab in VirtualBox with Vagrant or in Google Compute Engine (part of Google Cloud Platform).
 
-You will install Devstack Ocata Release (closest we can still get to Newton, using official repos), with following Projects:
+You will install Devstack Ocata Release (closest we can still get to Newton - EOL since 2017-10-25, using official repos), with following Projects:
 
 - Keystone
 - Glance
